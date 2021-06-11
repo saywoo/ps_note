@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <bits/stdc+.h>
 using namespace std;
 
 #define A first
@@ -32,7 +32,7 @@ int main()
 
         for (int i = 1; i <= r; i++) {
             int s = 0;
-            for (int j = 1; j <= c; j++) {
+            for (int j = 1; j <= c; j++) {   
                 if (v[i][j] == mid) {  x = i; y = j; ps[i][j] = 0; }
                 else if (v[i][j] < mid) ps[i][j] = -1;
                 else ps[i][j] = 1;
